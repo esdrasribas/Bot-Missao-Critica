@@ -1,0 +1,3 @@
+* * * * * PYTHONPATH=/usr/local/lib/python3.11/site-packages /usr/local/bin/python3 /app/missaoCriticaBot/cron/monitorar_reparos.py
+* * * * * PYTHONPATH=/usr/local/lib/python3.11/site-packages /usr/local/bin/python3 /app/missaoCriticaBot/cron/mover_tabela_historico.py
+* * * * * /bin/sh /app/missaoCriticaBot/cron/exec_call.sh  >> /proc/1/fd/1 2>&1
